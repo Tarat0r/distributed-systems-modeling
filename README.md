@@ -67,8 +67,6 @@ Then one of the following is run:
 - Multicast — Domain-based multiple group sends
 - Gossip Push/Pull/PushPull — Epidemic-style message spread
 
-[**Report**](/report/report.md)
-
 ## Output
 
 - CSV logs per node saved to /metrics
@@ -119,7 +117,6 @@ flowchart
 
     C1 --> C4[Node 4]
     C1 --> C5[Node 5]
-    %% Multicast targets only a subset
   end
 ```
 
@@ -160,3 +157,5 @@ flowchart
     G3 <--> G4
   end
 ```
+
+## [Report](/report/report.md)
