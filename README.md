@@ -67,7 +67,7 @@ Then one of the following is run:
 - Multicast — Domain-based multiple group sends
 - Gossip Push/Pull/PushPull — Epidemic-style message spread
 
-[Report](/report/report.md)
+[**Report**](/report/report.md)
 
 ## Output
 

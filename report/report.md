@@ -56,6 +56,7 @@ Contains performance metrics from simulated runs of various message disseminatio
 - Shows reliability as the network size increases.
 - **Broadcast** remains highly reliable regardless of size.
 - **Gossip** algorithms tend to degrade as node count grows.
+
 ![OKPercentage vs NodeCount](diagrams/OKPercentage_NodeCount.png)
 
 ### ✅ 2. TimeDuration vs NodeCount
@@ -63,6 +64,7 @@ Contains performance metrics from simulated runs of various message disseminatio
 - Performance scaling with network size.
 - **GossipPush** is the slowest.
 - **Broadcast** and **Multicast** are fast and scalable.
+
 ![TimeDuration vs NodeCount](diagrams/TimeDuration_NodeCount.png)
 
 ### ✅ 3. TotalMessages vs NodeCount
@@ -70,6 +72,7 @@ Contains performance metrics from simulated runs of various message disseminatio
 - Shows network traffic load.
 - **GossipPush** creates the most traffic.
 - **Broadcast** is extremely efficient.
+
 ![TotalMessages vs NodeCount](diagrams/TotalMessages_NodeCount.png)
 
 ### ✅ 4. Total Messages per Algorithm
@@ -97,6 +100,7 @@ This chart shows the **average execution time** (simulation duration) of each al
 - Displays consistency and spread of algorithm performance.
 - **Broadcast** shows high median and low variance.
 - **Gossip** strategies vary greatly.
+
 ![Boxplot of Efficiency](diagrams/efficiency_boxplot.png)
 
 ### ✅ 7. Max Sent messages per node
@@ -104,6 +108,7 @@ This chart shows the **average execution time** (simulation duration) of each al
 - Indicates how many messages are delivered from one node.
 - **GossipPull** and **GossipPush** exhibit the highest per-node sending load.
 - **Broadcast** and **Multicast** distribute sending more evenly across nodes.
+
 ![Max Sent messages per node](diagrams/maxsent_bar.png)
 
 ---
@@ -111,31 +116,37 @@ This chart shows the **average execution time** (simulation duration) of each al
 ## Broadcast
 
 ![Broadcast – OKPercentage Histogram](diagrams/broadcast_okpercentage_histogram.png)
+
 ![Broadcast – TimeDuration Histogram](diagrams/broadcast_timeduration_histogram.png)
 
 ## Gossip Pull
 
 ![GossipPull – OKPercentage Histogram](diagrams/gossippull_okpercentage_histogram.png)
+
 ![GossipPull – TimeDuration Histogram](diagrams/gossippull_timeduration_histogram.png)
 
 ## Gossip Push
 
 ![GossipPush – OKPercentage Histogram](diagrams/gossippush_okpercentage_histogram.png)
+
 ![GossipPush – TimeDuration Histogram](diagrams/gossippush_timeduration_histogram.png)
 
 ## Gossip Push Pull
 
 ![GossipPushPull – OKPercentage Histogram](diagrams/gossippushpull_okpercentage_histogram.png)
+
 ![GossipPushPull – TimeDuration Histogram](diagrams/gossippushpull_timeduration_histogram.png)
 
 ## Multicast
 
 ![Multicast – OKPercentage Histogram](diagrams/multicast_okpercentage_histogram.png)
+
 ![Multicast – TimeDuration Histogram](diagrams/multicast_timeduration_histogram.png)
 
 ## Singlecast
 
 ![Singlecast – OKPercentage Histogram](diagrams/singlecast_okpercentage_histogram.png)
+
 ![Singlecast – TimeDuration Histogram](diagrams/singlecast_timeduration_histogram.png)
 
 ## OKPercentage Distribution
@@ -152,7 +163,9 @@ This chart shows the **average execution time** (simulation duration) of each al
 ![Bar Chart – OKPercentage by Algorithm](diagrams/okpercentage_bar.png)
 
 ![OKPercentage vs NodeCount (DelayMean=10)](diagrams/OKPercentage_NodeCount_DelayMean_10.png)
+
 ![OKPercentage vs NodeCount (DelayMean=50)](diagrams/OKPercentage_NodeCount_DelayMean_50.png)
 
 ![OKPercentage vs NodeCount (LossProbability=0.1)](diagrams/OKPercentage_NodeCount_LossProbability_0.1.png)
+
 ![OKPercentage vs NodeCount (LossProbability=0.2)](diagrams/OKPercentage_NodeCount_LossProbability_0.2.png)
